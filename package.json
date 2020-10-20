@@ -1,0 +1,23 @@
+{
+  "name": "projeto-dio03-chatbot",
+  "version": "1.0.0",
+  "description": "Nesse Labs eu devo desenvolver e entregar um projeto de “Chatbot no Telegram com JavaScript e NodeJS” ao qual você praticará e aplicará os conceitos de integração e buscas de vídeos de exercícios físicos no YouTube utilizando uma plataforma de entendimento de linguagem natural chamada DialogFlow. Demonstre toda sua capacidade criativa para transformar a base do projeto apresentada nesta sessão em um desenvolvimento inovador.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Robertosousa86/projeto-dio03-chatbot.git"
+  },
+  "keywords": [],
+  "author": "Roberto Sousa <robertosousa186@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Robertosousa86/projeto-dio03-chatbot/issues"
+  },
+  "homepage": "https://github.com/Robertosousa86/projeto-dio03-chatbot#readme",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.50.0"
+  }
+}
