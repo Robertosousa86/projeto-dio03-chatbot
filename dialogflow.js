@@ -23,11 +23,15 @@ try {
     }
     const responses = await sessionClient.detectIntent(request);
     const result = responses[0].queryResult;
-    console.log(JSON.stringify(result, null, 2));
+    return {
+      text: result.fulfillmentText,
+      intent: result.displayName,
+      fields: result.parameters.fields
+    };
   }
 
 } catch (err) {
   console.log(err);
 }
 
-sendMessage('1234', 'Oi??');
+module.exports.sendMessage = sendMessage;
